@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="textStart"
+    tools:context=".Fragments._MineFragment">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      tools:ignore="SpeakableTextPresentCheck">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="100dp"
+        android:layout_height="match_parent">
+
+      <androidx.cardview.widget.CardView
+          android:id="@+id/cardimag"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+          android:layout_marginStart="24dp"
+          android:layout_marginTop="24dp"
+          app:cardBackgroundColor="#0000"
+          app:cardCornerRadius="75dp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            app:cardCornerRadius="75dp">
+
+          <ImageView
+              android:id="@+id/imageViewLogin"
+              android:layout_width="150dp"
+              android:layout_height="150dp"
+              android:alpha="0.4"
+              android:scaleType="centerCrop"
+              android:layout_gravity="center"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.44"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent"
+              app:srcCompat="@drawable/ic_baseline_person_24" />
+        </androidx.cardview.widget.CardView>
+      </androidx.cardview.widget.CardView>
+
+      <TextView
+          android:id="@+id/UserName"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="32dp"
+          android:layout_marginTop="8dp"
+          android:fontFamily="@font/passero_one"
+          android:text="user name"
+          android:textColor="#020202"
+          android:textSize="24sp"
+          app:layout_constraintStart_toEndOf="@+id/cardimag"
+          app:layout_constraintTop_toBottomOf="@+id/welc" />
+
+      <TextView
+          android:id="@+id/textView8"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:layout_marginEnd="108dp"
+          android:fontFamily="@font/passero_one"
+          android:text="Click to Change Your Photo"
+          android:textSize="16sp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="@+id/UserName"
+          app:layout_constraintTop_toBottomOf="@+id/UserName" />
+
+      <TextView
+          android:id="@+id/welc"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="32dp"
+          android:layout_marginBottom="16dp"
+          android:fontFamily="@font/passero_one"
+          android:text="Welcome Back"
+          android:textColor="#000000"
+          android:textSize="24sp"
+          app:layout_constraintBottom_toTopOf="@+id/UserName"
+          app:layout_constraintStart_toStartOf="@+id/UserName"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="1.0" />
+
+      <TextView
+          android:id="@+id/overview"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="10dp"
+          android:layout_marginTop="90dp"
+          android:fontFamily="@font/passero_one"
+          android:text="Tasks Overview"
+          android:textSize="24sp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/cardimag" />
+
+      <androidx.cardview.widget.CardView
+          android:id="@+id/CompleteTasks"
+          android:layout_width="150dp"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="16dp"
+          android:layout_marginTop="20dp"
+          app:cardCornerRadius="10dp"
+          app:cardElevation="10dp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/overview">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#0000"
+            android:orientation="vertical">
+
+          <TextView
+              android:id="@+id/TaskOpen"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_marginTop="20dp"
+              android:fontFamily="@font/passero_one"
+              android:text=""
+              android:textColor="#000000"
+              android:textSize="28sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_marginTop="20dp"
+              android:layout_marginBottom="10dp"
+              android:fontFamily="@font/passero_one"
+              android:text="Open Tasks"
+              android:textAlignment="center"
+              android:textSize="20sp" />
+
+        </LinearLayout>
+
+      </androidx.cardview.widget.CardView>
+
+      <androidx.cardview.widget.CardView
+          android:id="@+id/OpenTasks"
+          android:layout_width="150dp"
+          android:layout_height="wrap_content"
+          android:layout_marginHorizontal="130dp"
+          android:layout_marginTop="20dp"
+          android:layout_marginEnd="16dp"
+          app:cardCornerRadius="10dp"
+          app:cardElevation="10dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/overview">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#0000"
+            android:orientation="vertical">
+
+          <TextView
+              android:id="@+id/TaskCompleted"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_marginTop="20dp"
+              android:fontFamily="@font/passero_one"
+              android:text=""
+              android:textColor="#000000"
+              android:textSize="28sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_marginTop="20dp"
+              android:layout_marginBottom="10dp"
+              android:fontFamily="@font/passero_one"
+              android:text="Completed Tasks"
+              android:textSize="20sp" />
+
+        </LinearLayout>
+
+      </androidx.cardview.widget.CardView>
+
+      <androidx.cardview.widget.CardView
+          android:id="@+id/NumberTasks"
+          android:layout_width="150dp"
+          android:layout_height="wrap_content"
+          android:layout_marginHorizontal="130dp"
+          android:layout_marginTop="16dp"
+          android:layout_marginEnd="16dp"
+          app:cardCornerRadius="10dp"
+          app:cardElevation="10dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/CompleteTasks">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#0000"
+            android:orientation="vertical">
+
+          <TextView
+              android:id="@+id/TaskNumber"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_marginTop="20dp"
+              android:fontFamily="@font/passero_one"
+              android:text=""
+              android:textColor="#000000"
+              android:textSize="24sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_marginTop="20dp"
+              android:layout_marginBottom="10dp"
+              android:fontFamily="@font/passero_one"
+              android:text="Tasks Number"
+              android:textSize="20sp" />
+
+        </LinearLayout>
+
+      </androidx.cardview.widget.CardView>
+
+      <androidx.cardview.widget.CardView
+          android:id="@+id/CloseTasks"
+          android:layout_width="150dp"
+          android:layout_height="wrap_content"
+          android:layout_marginHorizontal="130dp"
+          android:layout_marginStart="16dp"
+          android:layout_marginTop="16dp"
+          android:layout_marginBottom="32dp"
+          app:cardCornerRadius="10dp"
+          app:cardElevation="10dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/CompleteTasks">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#0000"
+            android:orientation="vertical">
+
+          <TextView
+              android:id="@+id/TaskClose"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_marginTop="20dp"
+              android:fontFamily="@font/passero_one"
+              android:text=""
+              android:textColor="#000000"
+              android:textSize="24sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_marginTop="20dp"
+              android:layout_marginBottom="10dp"
+              android:fontFamily="@font/passero_one"
+              android:text="Category Number"
+              android:textSize="20sp" />
+
+        </LinearLayout>
+
+      </androidx.cardview.widget.CardView>
+
+      <View
+          android:id="@+id/divider"
+          android:layout_width="409dp"
+          android:layout_height="1dp"
+          android:layout_marginTop="42dp"
+          android:layout_marginEnd="1dp"
+          android:background="?android:attr/listDivider"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/cardimag" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+  </ScrollView>
+</FrameLayout>

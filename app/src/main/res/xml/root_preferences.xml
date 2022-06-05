@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Theme">
+        <ListPreference
+            app:defaultValue="BLUE"
+            app:entries="@array/theme_entries"
+            app:entryValues="@array/theme_values"
+            app:key="color_option"
+            app:title="Change Theme"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Toast">
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:key="toast_visiblility"
+            app:summary="to "
+            app:title="hide and show toast" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

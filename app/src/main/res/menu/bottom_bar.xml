@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_task"
+        android:enabled="true"
+        android:icon="@drawable/ic_outline_speaker_notes_24"
+        android:title="@string/tasks" />
+    <item
+        android:id="@+id/page_Calender"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_calendar_month_24"
+        android:title="@string/calendar" />
+
+    <item
+        android:id="@+id/page_mine"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/mine" />
+
+
+</menu>

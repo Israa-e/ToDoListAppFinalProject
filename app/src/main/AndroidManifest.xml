@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.todolistapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ToDoAppTrial">
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:parentActivityName=".HomePageActivity"
+            android:label="@string/title_activity_settings" />
+<!--        <activity-->
+<!--            android:name=".ThemesActivity"-->
+<!--            android:exported="false"-->
+<!--            android:label="@string/title_activity_themes"-->
+<!--            tools:ignore="MissingClass" />-->
+        <activity
+            android:name=".DrawerThings.FAQActivity"
+            android:exported="false"
+            android:parentActivityName=".HomePageActivity" />
+        <activity
+            android:name=".DrawerThings.FavoritesActivity"
+            android:exported="false"
+            android:parentActivityName=".HomePageActivity" />
+        <activity
+            android:name=".Adds.TaskDetailsActivity"
+            android:exported="false"
+            android:parentActivityName=".HomePageActivity" />
+        <activity
+            android:name=".StartApp.OnBoarding"
+            android:exported="false" />
+        <activity
+            android:name=".Log.ForgetPasswordActivity"
+            android:exported="false"
+            android:parentActivityName=".Log.Log_in_upActivity" />
+        <activity
+            android:name=".HomePageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Log.Log_in_upActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StartApp.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StartApp.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Log.SignUpActivity"
+            android:exported="false"
+            android:parentActivityName=".Log.Log_in_upActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

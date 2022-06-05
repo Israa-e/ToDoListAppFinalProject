@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ToDoApp Trial</string>
+    <string name="to_do">لكى يفعل</string>
+    <string name="hello_blank_fragment">مرحبا جزء فارغ</string>
+    <string name="this_is_task_1">هذه هي المهمة 1</string>
+    <string name="No_Category">لا تصنيف</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="notifications_and_reminders">The phone cannot receive notifications and reminders .</string>
+    <string name="not_dec"><![CDATA[If you did not receive notifications , it may be because you did not give authority to receive notifications from the app . Please follow the steps below : \nApp Settings > Notifications and Reminders > Task Reminder does not Work > Authorization )\n 1. Click Settings in the sidebar ;\n 2. Click Notifications and Reminders ;\n 3. Click the first option Task reminder Does not Work ; \n 4. Enable the 3 authority options . \n If you still cannot receive notifications and reminders , please go to the phone system settings and authorize to receive notifications from the app . ( Phone Settings > Apps and Reminders > To - do list > Notifications > Show notifications )\n 1. Click the \' Settings \' of the mobile phone system ;\n 2. Click Apps and Reminders ; \n 3. Click on this application ; \n 4. Click Notifications ; \n 5. Turn on Show notifications\n]]></string>
+    <string name="sound_dec"><![CDATA[Please check whether the sound of the mobile phone system is turned on .\n( Settings > Sound > Alarm volume and Ring volume )\n1. Click the settings from phone system ;\n2. Click Sound , the system gives a total of 4 ringtones ;\n3. If your task reminder type is Alarm , please turn on Alarm volume ; if your task reminder type Reminder , please turn on Ring volume .]]></string>
+    <string name="sound">here is no sound for task reminders .</string>
+    <string name="pro_dec">This situation may be due to a delay in the synchronization of Google\'s purchase information , please be patient ! You can also try as the following : \n1. Check the purchase status of the app on google play ; \n2. Update google play ;\n 3. Exit and re - enter the app ; \n4. Change network , etc. \nIf none of the above is valid , please check the purchase order number on google play , and send us the GPA number and payment screenshot .</string>
+    <string name="pro">After purchasing the PRO version , PRO functions are still not activated .</string>
+    <string name="formatted">If the phone is formatted or replaced , and then the PRO subscription is not activated anymore .</string>
+    <string name="formatted_dec"><![CDATA[Please follow the steps below :\n( Confirm the network > Login > Upgrade to Pro Restore )\n1. Confirm that the network is in good condition\n2. Log in to the account that has successfully purchased the PRO version ;\n3. Click Upgrade to Pro in the sidebar ;\n4. Click Restore ;\n5. Other operations that can be tried : update Google Play ; exit and re - enter the app ; change network , etc.\nIf none of the above is valid , please check the purchase order number on Google Play , and send us the GPA number and payment screenshot .]]></string>
+    <string name="account">Synchronize account information on different devices .</string>
+    <string name="account_dec"><![CDATA[Please follow the steps below : \n( Confirm the network > Login > Settings >Account sync > Sync records > Log in on another device ) \n1. Confirm that the network is in good condition ;\n2. Login account ;\n3. Click Settings in the sidebar ;\n4. Click Account Sync ;\n5. Click Sync Record ;\n6. Log in to the same account on another device , and you can see all history tasks at this time .]]></string>
+    <string name="calendar">How to import system calendar events ?</string>
+    <string name="calendar_dec"><![CDATA[Please follow the steps below :\n( Settings > Import system calendar events > Switch button> Calendar sync )\n1. Click Settings in the sidebar ;\n2. Click Import System Calendar Events :\n3. Click the switch button ;\n4. Click Calendar Sync .]]></string>
+
+    <!--to toggle the open close button
+        of the navigation drawer-->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="star_tasks">المهام المفضلة</string>
+    <string name="category">تصنيف</string>
+    <string name="work">العمل</string>
+    <string name="birthday">عيد ميلاد</string>
+    <string name="theme">السمة</string>
+    <string name="faq">التعليمات</string>
+    <string name="text_task_add">اكتب مهمتك هنا ...</string>
+    <string name="text_task_date">تعيين تاريخ الاستحقاق</string>
+    <string name="create_category">إنشاء فئة</string>
+    <string name="add_category">إضافة فئة .</string>
+    <string name="taskname">اسم المهمة</string>
+    <string name="TimeandReminder">الوقت والتذكير</string>
+    <string name="due_date">تاريخ الاستحقاق</string>
+    <string name="repeat_task">كرر المهمة</string>
+    <string name="reminder_at">تذكير في</string>
+    <string name="no">لا</string>
+    <string name="no_repeat">لا تكرار</string>
+    <string name="to_do_list">عمل قائمة</string>
+    <string name="reminders_made_simple_n">أصبحت التذكيرات بسيطة \n</string>
+    <string name="a_to_do_write">يتيح لك تطبيق قائمة المهام كتابة وتنظيم وإعادة ترتيب أولويات مهامك بشكل أكثر كفاءة. كما أنها تتيح لك إرفاق ملاحظات وروابط وملفات بمهمة ما ، ويتيح لك الكثير منها معرفة ما إذا كان شخص آخر قد أكمل مهمة ما. من نواح كثيرة ، يعد تطبيق المهام الجيدة هو تطبيق الإنتاجية النهائي.</string>
+    <string name="get_started">البدء</string>
+    <string name="log_in">تسجيل الدخول</string>
+
+    <string name="enter_your_email">أدخل بريدك الإلكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="need_help">تحتاج مساعدة !؟</string>
+    <string name="forger_password">هل نسيت كلمة السر ؟</string>
+    <string name="sing_up">التسجيل</string>
+    <string name="don_t_have_an_account">ليس لديك حساب؟</string>
+    <string name="full_name">الاسم الكامل</string>
+    <string name="phone_number">أدخل رقم هاتفك</string>
+    <string name="enter_your_password">ادخل رقمك السري</string>
+    <string name="enter_your_password_again">أدخل كلمة المرور الخاصة بك مرة أخرى</string>
+    <string name="create_account">إصنع حساب</string>
+    <string name="tasks">مهام</string>
+
+    <string name="mine">Mine</string>
+
+    <string name="first">If you couldn\'t find your Place/Ministry when trying to Add a Site to your Adventist Place dashboard, send us the below information so we can add the Place\'s details to our master South Pacific Division database.</string>
+    <string name="sconde">If you couldn\'t find your Place/Ministry when trying to Add a Site to your Adventist Place dashboard, send us the below information so we can add the Place\'s details to our master South Pacific Division database.</string>
+    <string name="four">If you couldn\'t find your Place/Ministry when trying to Add a Site to your Adventist Place dashboard, send us the below information so we can add the Place\'s details to our master South Pacific Division database.</string>
+    <string name="three">If you couldn\'t find your Place/Ministry when trying to Add a Site to your Adventist Place dashboard, send us the below information so we can add the Place\'s details to our master South Pacific Division database.</string>
+    <string name="firstT">add_missing_place</string>
+    <string name="scondeT">search_place</string>
+    <string name="fourT">sit_back_and_relax</string>
+    <string name="threeT">make_a_call</string>
+
+    <string name="no_task_you_could_relax">لا توجد مهمة يمكنك الاسترخاء</string>
+    <string name="forget_password">نسيت كلمة المرور</string>
+    <string name="forget_pass_text">قم بتوفير البريد الإلكتروني لحسابك والذي لن تقوم بإعادة تعيين كلمة المرور الخاصة به</string>
+    <string name="next">التالي</string>
+    <string name="skip">يتخطى</string>
+    <string name="powered_by_israa_khetam_sondos">مدعوم من إسراء ، ختام ، سندس</string>
+    <string name="_30_2_2022">30/2/2022</string>
+    <string name="write_your_task_here">اكتب مهمتك هنا ...</string>
+    <string name="set_due_date">تعيين تاريخ الاستحقاق</string>
+    <string name="save">يحفظ</string>
+    <string name="textview">عرض النص</string>
+    <string name="languages">اللغات</string>
+    <string name="Tasks">مهام</string>
+    <string name="Calender">تقويم</string>
+    <string name="Mine">اعدادات</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="title_activity_themes">ثيمات النشاط</string>
+    <string name="messages_header">رسائل</string>
+    <string name="sync_header">مزامنة</string>
+    <string name="signature_title">توقيعك</string>
+    <string name="reply_title">إجراء الرد الافتراضي</string>
+    <string name="sync_title">مزامنة البريد الإلكتروني بشكل دوري</string>
+    <string name="attachment_title">تحميل المرفقات الواردة</string>
+    <string name="attachment_summary_on">تنزيل المرفقات تلقائيًا لرسائل البريد الإلكتروني الواردة</string>
+    <string name="attachment_summary_off">قم بتنزيل المرفقات فقط عند الطلب يدويًا</string>
+    <string name="title_activity_settings">نشاط الإعدادات</string>
+    <string name="favorites">المفضلة</string>
+    <string name="task_detail">تفاصيل المهمة</string>
+    <string name="name_task">اسم المهمة:</string>
+    <string name="status">حالة:</string>
+</resources>
